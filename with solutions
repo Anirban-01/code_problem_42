@@ -1,0 +1,8 @@
+# Write a Python program to check whether a file exists
+
+
+try:
+    file = open(file='text.txt')
+    print('file found')
+except FileNotFoundError:
+    print('file not found')
